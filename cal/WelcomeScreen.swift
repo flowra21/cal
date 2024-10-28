@@ -1,26 +1,20 @@
-//
-//  WelcomeScreen.swift
-//  Learner
-//
-//  Created by Jwan Faisal Alameer on 17/04/1446 AH.
-//
 
 import SwiftUI
 
 struct WelcomeScreen: View {
     @State private var learning = ""
     @State private var selectedOption: String = "Month"
-    @State private var navigateToHome = false 
+    @State private var navigateToHome = false
 
     var body: some View {
         NavigationView {
             ZStack {
                 Color.black.edgesIgnoringSafeArea(.all)
                 
-                Image(.streak)
+                Image("A")
                     .resizable()
                     .frame(width : 200 , height: 200)
-                    .padding(.top , -350)
+                    .padding(.top , -50)
                 
                 VStack{
                     Text("Hello Learner!")

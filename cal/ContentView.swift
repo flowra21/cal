@@ -1,24 +1,26 @@
-//
 //  ContentView.swift
-//  cal
+//  adwaa
 //
-//  Created by Adwa on 17/04/1446 AH.
+//  Created by Adwa on 29/03/1446 AH.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        Home()
     }
-}
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
+    }}
 
-#Preview {
-    ContentView()
-}
+
+
+
+
+
+
+
+
